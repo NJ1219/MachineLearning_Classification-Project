@@ -51,13 +51,13 @@ For each of the above, it was required to:
 4. Print the `imbalanced classification report` from `imblearn.metrics`.
 
 
-Using the above, the following questions were answered:
+Using the above, the following observations were made:
 
-* Which model had the best balanced accuracy score?
+* Logistic Regression model with SMOTE oversmapling had the best balanced accuracy score, very closely followed by Random Oversampling and Combination (SMOTEEN) Sampling.
 >
-* Which model had the best recall score?
+* It was a tie between Random oversampling, SMOTE Oversampling and Combination(SMOTEEN) Sampling for best recall score.
 >
-* Which model had the best geometric mean score?
+* It was also a tie between Random oversampling, SMOTE Oversampling and Combination(SMOTEEN) Sampling for the best geometric mean score.
 
 #### Ensemble Learning
 
@@ -76,15 +76,15 @@ The following steps were completed for each model:
 5. For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
 
 
-Using the above information, the following questions were answered:
+Using the above information, the following observations were made:
 
-* Which model had the best balanced accuracy score?
+* The Easy Ensemble Classifier model had the better balanced accuracy score.
 
-* Which model had the best recall score?
+* It was a tie between Random Forest Classifier and Easy Ensemble Classifier for the best recall score.
 
-* Which model had the best geometric mean score?
+* It was also a tie between Random Forest Classifier and Easy Ensemble Classifier for the best geometric mean score.
 
-* What are the top three features?
+* The top three features to be included in our model are "Borrower's Income", "Interest Rate" and "Debt to Income Ratio". Other features which may be look at are "Total Debt" and "Loan Size".
 
 
 
